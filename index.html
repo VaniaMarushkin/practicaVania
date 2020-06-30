@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Hot-Stroi</title>
+</head>
+<body>
+    <header>
+      <div id="home" class="header-up">
+        <img id="logo" src="img/logo.svg">
+      <nav>
+       <div id="close-button1" class="burger-buttton"><img src="img/burger-close.svg"></div> 
+       <div id="open-button1" class="burger-buttton"><img src="img/burger-button.svg"></div> 
+       <a href="#home"><button id="button1-1" class="header-button">Home</button></a> 
+       <a href="#about"><button id="button1-2"  class="header-button">About</button></a>
+       <a href="#contact"><button id="button1-3"  class="header-button">Contacts</button></a>
+       <a href="#catalog"><button id="button1-4"  class="header-button">Catalog</button></a>
+    </nav>
+    <a href="#" class="js-open-modal" data-modal="1"><img id="korzina" src="img/korz.svg"></a>
+  </div>
+  <div class="header-image">
+  <div class="search">
+    <img src="img/search.png">
+  </div>
+  <h1>Хоть-Строй</h1>
+</div>
+    </header>
+    <main>
+      <div class="modal" data-modal="1">
+        <!--   Svg иконка для закрытия окна  -->
+        <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"/></svg>
+        <p class="modal__title">
+            <form>
+              <p>Логин</p>
+              <input type="text">
+              <p>Пароль</p>
+              <input type="password">
+              <br>
+              <input id="form-button" type="button" value = "Войти">
+            </form>
+     </div>
+     <div class="overlay js-overlay-modal"></div>
+    <div id="about" class="orange-line">О нас</div>
+      <div class="intel">
+        <img src="img/pict.png">
+        <br>
+        <p class="intel-text"> Огромный ассортимент товаров от ведущих отечественных и импортных производителей для ремонтных, строительных и отделочных работ: электротовары, хозтовары, стройматериалы, метизы, сантехническое оборудование и аксессуары, товары для дома.</p>
+      </div>
+      <br>
+      <div>
+        <div id="contact" class="orange-line">Контакты</div>
+        <br>
+        <div class="center-place">
+        <div class="contacts-1">
+          <div class="contacts-2">
+          <img src="img/phone.png">
+          <p>ЕЖЕДНЕВНО<br>8:00 - 22:00</p>
+          <p class="cont-int">8(495)902-68-02</p>
+        </div>
+        </div>
+        <br>
+        <div class="contacts-1">
+          <div class="contacts-2">
+            <img src="img/mail.png">
+            <p>Поддержка</p>
+          <p class="cont-int">support@hotstroi.com</p>
+        </div>
+        </div>
+        <br>
+        <div class="contacts-1">
+          <div class="contacts-2">
+            <img src="img/skype.png">
+          <p>ЕЖЕДНЕВНО<br>8:00 - 22:00</p>
+          <p class="cont-int">Hot-stroi</p>
+        </div>
+        </div>
+      </div>
+      <br>
+    </div>
+      <div id="catalog" class="catalog">
+        <p class="catalog-text">Каталог</p>
+        <div id="close-button2" class="burger-buttton"><img src="img/burger-close.svg"></div> 
+        <div id="open-button2" class="burger-buttton"><img src="img/burger-button.svg"></div> 
+        <button id="button2-1" class="header-button">Бытовая техника</button>
+        <button id="button2-2" class="header-button">Стройматериалы</button>
+        <button id="button2-3" class="header-button">Бонусы</button>
+      </div>
+      <br>
+      <div id="shop1" class="shop">
+        <div class="tovar">
+        <img src="img/chainik.jpg">
+        <p>Чайник электрический Centek CT-0048, 2200 Вт, 1.8 л, пластик, фиолетовый</p>
+        <p>1 929 руб.</p>
+        </div>
+        <br>
+        <div class="tovar">
+          <img src="img/chainik.jpg">
+          <p>Чайник электрический Centek CT-0048, 2200 Вт, 1.8 л, пластик, фиолетовый</p>
+          <p>1 929 руб.</p>
+          </div>
+          <br>
+          <div class="tovar">
+            <img src="img/chainik.jpg">
+            <p>Чайник электрический Centek CT-0048, 2200 Вт, 1.8 л, пластик, фиолетовый</p>
+            <p>1 929 руб.</p>
+            </div>
+      </div>
+      <div id="shop2" class="shop">
+        <div class="tovar">
+        <img src="img/fanera.jpg">
+        <p>Фанера в ассортименте, оптом и в розницу</p>
+        <p>100 руб. за шт.</p>
+        </div>
+        <br>
+        <div class="tovar">
+          <img src="img/fanera.jpg">
+        <p>Фанера в ассортименте, оптом и в розницу</p>
+        <p>100 руб. за шт.</p>
+          </div>
+          <br>
+          <div class="tovar">
+            <img src="img/fanera.jpg">
+        <p>Фанера в ассортименте, оптом и в розницу</p>
+        <p>100 руб. за шт.</p>
+            </div>
+      </div>
+      <div id="shop3" class="shop">
+        <div class="slider">
+          <a class="slider__control slider__control_left" href="#" role="button"></a>
+          <div class="slider__wrapper">
+            <div class="slider__item">
+              <div><img src="img/slider/image1.png"></div>
+            </div>
+            <div class="slider__item">
+              <div><img src="img/slider/image2.png"></div>
+            </div>
+          </div>
+          <a class="slider__control slider__control_right" href="#" role="button"></a>
+        </div>
+      </div>
+    </main>
+    <br>
+    <footer>
+        <div class="footer-logo">
+          <img src="img/logo.svg">
+          <div class="icons">
+            <img class="icons" src="img/icon1.png">
+            <img class="icons" src="img/icon2.png">
+            <img class="icons" src="img/icon3.png">
+            <img class="icons" src="img/icon4.png">
+            <img class="icons" src="img/icon5.png">
+        </div>
+        </div>
+        <nav>
+          <a href="#home"><button class="header-button">Home</button></a> 
+          <a href="#about"><button class="header-button">About</button></a> 
+          <a href="#contact"><button class="header-button">Contacts</button></a>
+          <a href="#catalog"><button class="header-button">Catalog</button></a>
+      </nav>
+      <p>copyright2019</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
